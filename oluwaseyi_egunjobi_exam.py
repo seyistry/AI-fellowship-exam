@@ -15,22 +15,22 @@ Instruction
 
 
 def add(x, y):
-    return x + y
+    return (f'Result: {x + y}\n')
 
 
 def subtract(x, y):
-    return x - y
+    return (f'Result: {x - y}\n')
 
 
 def multiply(x, y):
-    return x * y
+    return (f'Result: {x * y}\n')
 
 
 def divide(x, y):
     try:
-        return x / y
+        return (f'Result: {x / y}\n')
     except ZeroDivisionError:
-        return "Error: Cannot divide by zero."
+        return "Error: Cannot divide by zero. \n"
 
 
 def calculator():
@@ -42,21 +42,21 @@ def calculator():
             print("Invalid input. Please enter numeric values.")
             continue
 
-        choice = input("Choose operation (+, -, *, /) or 'exit' to quit:")
+        choice = input("Choose operation (+, -, *, /) or 'exit' to quit: ")
 
         if choice == 'exit':
             print("Exiting the calculator. Goodbye!")
             break
 
         if choice == '+':
-            print(f"Result: {add(num1, num2)}\n")
+            print(add(num1, num2))
         elif choice == '-':
-            print(f"Result: {subtract(num1, num2)}\n")
+            print(subtract(num1, num2))
         elif choice == '*':
-            print(f"Result: {multiply(num1, num2)}\n")
+            print(multiply(num1, num2))
         elif choice == '/':
             result = divide(num1, num2)
-            print(f"Result: {result}\n")
+            print(result)
         else:
             print("Invalid choice. Please select a valid operation.")
 
