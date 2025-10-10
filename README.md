@@ -17,7 +17,13 @@ A program that repeatedly prompts the user for their age and informs them if the
 
 ### Exam 2
 
+#### Question1 - Pandas for Data Analysis
 
+#### Question2 - Numpy for numeric computation
+
+#### Question3 - Statistics for statistical analysis
+
+#### Question4 - Linear Algebra
 
 ## Author
 
