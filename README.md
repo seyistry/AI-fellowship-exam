@@ -18,12 +18,16 @@ A program that repeatedly prompts the user for their age and informs them if the
 ### Exam 2
 
 #### Question1 - Pandas for Data Analysis
+You are required to perform the following data wrangling tasks using Pandas and NumPy.
 
 #### Question2 - Numpy for numeric computation
+You are required to perform the following data analysis and manipulation tasks using NumPy.
 
 #### Question3 - Statistics for statistical analysis
+You are required to use the Markdown section of your Jupyter Notebook (.ipynb) to compute and present your solutions for all questions.
 
 #### Question4 - Linear Algebra
+Background: We are analyzing the performance of 4 students in 3 subjects: Mathematics, English, and Science. The data is represented by the matrix $A$: $$A = \begin{bmatrix} 80 & 70 & 90 \ 60 & 85 & 75 \ 95 & 88 & 92 \ 70 & 60 & 65 \end{bmatrix}$$ Each row represents a student, and each column represents a subject (Math, English, Science).
 
 ## Author
 
